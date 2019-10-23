@@ -1,0 +1,24 @@
+
+body {
+  background-color: #f0f0f0;
+  direction: rtl;
+  margin: 0.5%;
+  font-family: verdana, Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+
+textarea {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+	font-size: 1.2vw;
+	width: 90vw;
+	height: 70vh;
+}
+
+button {
+	font-size: 1.4vw;
+	padding: 1%;
+	margin: 1%;
+}
