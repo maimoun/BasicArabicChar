@@ -10,6 +10,17 @@ function removeExtraChar(){
 		      	output += letter;                                
 		}
 
+	output.replace('\r', '\n');    // remove \r.
+	
+	/*
+	var rule=/\s{1,}/g;
+	output = output.split(rule).join(" ");  // you can't create new lines
+	*/
+
+	
+	output = output.replace(/[ ]{2,}/gi," "); // remove extra spaces
+	
+
 	document.getElementById("textInput").value = output;      
 }
 
